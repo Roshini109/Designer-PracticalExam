@@ -29,11 +29,9 @@ export default function Navlist() {
         </div>
         <div className="link">
           <span>GALLERY</span>
-          <div className="icon"><KeyboardArrowDown/></div>
         </div>
         <div className="link">
           <span>OFFERS</span>
-          <div className="icon"><KeyboardArrowDown/></div>
         </div>
         <div className="link">
           <span>MORE</span>

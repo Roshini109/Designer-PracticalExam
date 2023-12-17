@@ -7,19 +7,23 @@ const ImageSlider = () => {
     const images = [
                 {
                     url:'assets/homeImage1.jpg',
-                    caption:'SHANGRI-LA COLOMBO'
+                    caption:'Shangri-La Colombo',
+                    subCaption:'Come with us through the whimsical world of Shangri-la, where your personal paradise awaits.'
                 },
                 {
                     url:'assets/homeImage2.png',
-                    caption:'SHANGRI-LA Colombo'
+                    caption:'Shangri-La Colombo',
+                    subCaption:'A personal tropical sanctuary set within the heart of the city.'
                 },
                 {
                     url:'assets/homeImage3.webp',
-                    caption:'Shangri-La colombo'
+                    caption:'Room & Suites',
+                    subCaption:'Tastefully designed with the modern traveler in mind'
                 },
                 {
                     url:'assets/homeImage4.webp',
-                    caption:'shangriLa-colombo'
+                    caption:'Shang Palace',
+                    subCaption:'Celebrate the art of Chinese cuisine in the heart of Colombo'
                 },
     ];
   
@@ -46,6 +50,7 @@ const ImageSlider = () => {
             style={{ backgroundImage: `url(${image.url})` }}
           >
             <div className="caption">{image.caption}</div>
+            <span className="subCaption">{image.subCaption}</span>
           </div>
         ))}
         <button className="prev" onClick={handlePrev}>&#10094;</button>
