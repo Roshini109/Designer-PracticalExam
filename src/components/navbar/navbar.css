@@ -1,9 +1,14 @@
+.navbar{
+    background-color: rgb(237, 237, 237);
+    justify-content: center;
+    display: flex;
+
 .container{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 10px;
-    background-color: rgb(237, 237, 237);
+    width: 1200px;
 
     .navbarLeft{
         display: flex;
@@ -44,4 +49,5 @@
             }
         }
     }
+}
 }

@@ -1,0 +1,50 @@
+.navbarList{
+    background-color: rgb(51, 51, 51);
+    justify-content: center;
+    display: flex;
+
+    .container{
+        width: 1200px;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        display: flex;
+        height: 40px;
+
+        .listLinks{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+
+            .link{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 5px 20px;
+                margin: 0;
+            }
+
+            .link:hover{
+                background-color: white;
+                color: rgb(51, 51, 51);
+            }
+        }
+
+        button{
+            background-color: rgb(51, 51, 51);
+            border: 1px solid white;
+            padding: 5px 10px;
+            color: white;
+            font-size: 14px;
+            cursor: pointer;
+
+        }
+
+        button:hover{
+            background-color: white;
+            color: black;
+        }
+
+    }
+}

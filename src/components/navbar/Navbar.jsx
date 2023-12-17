@@ -4,6 +4,7 @@ import {Person, Language} from '@mui/icons-material'
 
 export default function Navbar() {
   return (
+    <div className="navbar">
     <div className="container">
         <div className="navbarLeft">
                 <img src="/assets/shangrilaLogo.png" alt="" className="navbarLogo"/>
@@ -32,6 +33,7 @@ export default function Navbar() {
                 </div>
             </div>
         </div>
+    </div>
     </div>
   )
 }
