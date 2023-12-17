@@ -1,0 +1,92 @@
+.destination{
+    .container{
+        width: 1400px;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        padding: 30px 0;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+
+        .top{
+            margin-bottom: 30px;
+
+            span{
+                color: #77328b;
+                font-style: italic;
+                font-family: "UniversLT-Light", serif;
+                font-size: 70px;
+            }
+        }
+        .middle{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border: solid 1px rgb(208, 208, 208);
+            width: 500px;
+            padding: 20px 30px;
+            font-size: 20px;
+            margin-bottom: 40px;
+            cursor: pointer;
+            
+            span{
+                font-family: "UniversLT-Light", serif;
+                font-style: italic;
+                font-weight: light;
+                color: rgb(86, 86, 86);
+            }
+        }
+        .bottom{
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .right{
+                position: relative;
+                margin-left: -10%;
+                z-index:1; 
+                background-color: rgb(255, 255, 255); 
+                height: 50vh;
+                width: 20%;
+                padding: 40px 30px;
+                box-shadow: 5px 5px 13px -5px rgba(0,0,0,0.51);
+                -webkit-box-shadow: 5px 5px 13px -5px rgba(0,0,0,0.51);
+                -moz-box-shadow: 5px 5px 13px -5px rgba(0,0,0,0.51);
+                
+                h2{
+                    font-family: "UniversLT-Light", serif;
+                    font-style: italic;
+                    color: #77328b;
+                    font-weight: normal;
+                    margin-bottom: 40px;
+                    font-size: 30px;
+                }
+
+                p{
+                    font-weight:300;
+                    font-size: 20px; 
+                    margin-bottom: 40px;
+                }
+                button{
+                    color: white;
+                    background-color: rgb(0, 0, 89);
+                    padding: 15px 30px;
+                    font-size: 20px;
+                    font-family: "UniversLT-Light", serif;
+                    font-style: italic;
+                    cursor: pointer;
+                    border: none;
+                }
+
+                button:hover {
+                    background-color: rgb(169, 169, 220); /* Set the initial color of the pseudo-element */
+                    transition: top 0.3s ease-in-out;
+                    color: rgb(0, 0, 0);
+                  }
+            }
+        }
+
+    }
+}

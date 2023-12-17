@@ -11,7 +11,7 @@ const ImageSlider = () => {
                     subCaption:'Come with us through the whimsical world of Shangri-la, where your personal paradise awaits.'
                 },
                 {
-                    url:'assets/homeImage2.png',
+                    url:'assets/homeImage2.jpg',
                     caption:'Shangri-La Colombo',
                     subCaption:'A personal tropical sanctuary set within the heart of the city.'
                 },
