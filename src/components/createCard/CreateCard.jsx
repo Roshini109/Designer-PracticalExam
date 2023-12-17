@@ -3,7 +3,11 @@ import './createcard.css'
 
 export default function CreateCard() {
   return (
+      <div className='cardContainer'> 
+      <h1>Experience something new</h1>
     <div className='cContainer'>
+
+
         <div className="cardContainer">
             <img src="https://www.hilton.com/im/en/NoHotel/18127576/family-pool-day-0199-v1.jpg?impolicy=crop&cw=2000&ch=1367&gravity=NorthWest&xposition=0&yposition=66&rw=1536&rh=1050" 
             alt="image1" />
@@ -39,6 +43,7 @@ export default function CreateCard() {
             alt="image6" />
             <h2>EXPERIENCE THE STAY</h2>
         </div>
+    </div>
     </div>
   )
 }
