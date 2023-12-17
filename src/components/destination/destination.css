@@ -29,12 +29,45 @@
             font-size: 20px;
             margin-bottom: 40px;
             cursor: pointer;
+            user-select: none;
             
             span{
+                
                 font-family: "UniversLT-Light", serif;
                 font-style: italic;
-                font-weight: light;
-                color: rgb(86, 86, 86);
+                color: #565656;
+            }
+
+            .dropdown{
+                .content{
+                    position: absolute;
+                    padding: 30px;
+                    top: 130%;
+                    width: 500px;
+                    max-height: 220px;
+                    overflow-y: scroll;
+                    left: 28.5%;
+                    background-color: rgb(255, 255, 255);
+                    z-index: 2;
+                    box-shadow: 5px 5px 13px -5px rgba(0,0,0,0.51);
+                    -webkit-box-shadow: 5px 5px 13px -5px rgba(0,0,0,0.51);
+                    -moz-box-shadow: 5px 5px 13px -5px rgba(0,0,0,0.51);
+
+
+                    .item{
+                        padding: 10px;
+                        cursor: pointer;
+                        font-family: "UniversLT-Light", serif;
+                        font-style: italic;
+                        color: #565656;
+                        margin-bottom: 5px;
+                    }
+
+                    .item:hover{
+                        background-color: #ededed;
+                    }
+
+                }
             }
         }
         .bottom{

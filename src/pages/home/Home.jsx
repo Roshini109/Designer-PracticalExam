@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from '../../components/navbar/Navbar'
 import Navlist from '../../components/navlist/Navlist'
 import ImageSlider from '../../components/imageslider/ImageSlider'
@@ -23,13 +23,14 @@ const slideImages=[
   },
 ];
 
+
 export default function Home() {
   return (
     <div>
         <Navbar/>
         <Navlist/>
         <ImageSlider slides={slideImages}/>
-        <Destination/>
+        <Destination />
     </div>
   )
 }
