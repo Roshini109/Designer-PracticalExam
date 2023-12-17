@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgb(237, 237, 237);
+
+    .navbarLeft{
+        display: flex;
+        align-items: center;
+
+            .navbarLogo{
+                width: 30px;
+                height: 30px;
+                object-fit: contain;
+                margin-right: 5px;
+        }
+
+        .logoName{
+            font-size: 20px;
+            font-family: Montserrat;
+            font-weight: 300;
+        }
+    }
+
+    .navbarRight{
+        .navbarLinks{
+            display: flex;
+            align-items:center;
+            justify-content: space-between;
+
+            .link{
+                display: flex;
+                margin-right: 20px;
+                align-items: center;
+                justify-content: center;
+                border-right: 1px solid gray;
+                padding-right: 10px;
+                cursor: pointer;
+
+                .icon{
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}
