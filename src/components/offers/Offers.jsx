@@ -10,6 +10,7 @@ export default function Offers() {
           {offers.map(card => (
             <div key={card.id} className="offerCard">
               <img src={card.url} />
+              <span className='me'>{card.me}</span>
                 <h4>{card.title}</h4>
                 <span className="date">{card.date}</span>
                 <span className='offer'>{card.offer}</span>
