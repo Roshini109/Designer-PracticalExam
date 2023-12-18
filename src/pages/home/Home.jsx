@@ -4,6 +4,7 @@ import Navlist from '../../components/navlist/Navlist'
 import ImageSlider from '../../components/imageslider/ImageSlider'
 import Destination from '../../components/destination/Destination';
 import CreateCard from '../../components/createCard/CreateCard';
+import Offers from '../../components/offers/Offers';
 
 const slideImages=[
   {
@@ -33,6 +34,7 @@ export default function Home() {
         <ImageSlider slides={slideImages}/>
         <Destination />
         <CreateCard/>
+        <Offers/>
     </div>
   )
 }
