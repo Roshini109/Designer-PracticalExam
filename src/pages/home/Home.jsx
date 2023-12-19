@@ -5,6 +5,7 @@ import ImageSlider from '../../components/imageslider/ImageSlider'
 import Destination from '../../components/destination/Destination';
 import CreateCard from '../../components/createCard/CreateCard';
 import Offers from '../../components/offers/Offers';
+import Footer from '../../components/footer/Footer';
 
 const slideImages=[
   {
@@ -35,6 +36,7 @@ export default function Home() {
         <Destination />
         <CreateCard/>
         <Offers/>
+        <Footer/>
     </div>
   )
 }

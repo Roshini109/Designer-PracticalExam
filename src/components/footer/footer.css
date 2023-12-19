@@ -1,0 +1,126 @@
+.footer{
+    height: 100vh;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    .fContainer{
+        width: 1200px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+
+        .fbox{
+            width: 370px;
+            height: 100px;
+            margin: 20px 20px 20px 0px;
+            display: flex;
+            flex-direction: column;
+
+            h1{
+                color: #77328b;
+                font-style: italic;
+                font-family: "UniversLT-Light", serif;
+                font-weight: 400;
+                margin-bottom: 15px;
+                font-size: 28px;
+            }
+
+            span{
+                color: rgb(179, 179, 179);
+                cursor: pointer;
+                font-size: 15px;
+                margin-bottom: 20px;
+                transition: ease 0.5s;
+            }
+
+            span:hover{
+                color: rgb(135, 135, 135);
+            }
+
+            .icons{
+                display: flex;
+                align-items: center;
+                color: gray;
+
+                .icon{
+                    cursor: pointer;
+                    margin-right: 25px;
+                    transition: transform 0.3s ease-in-out; 
+                    font-size: xx-large;
+                }
+
+                .icon:hover{
+                    transform: translateY(-7px);
+                }
+            }
+        }
+    }
+
+    .fbottom{
+        display: flex;
+        flex-direction: column;
+        width: 1200px;
+        align-items: flex-start;
+
+        h1{
+            color: #77328b;
+            font-style: italic;
+            font-family: "UniversLT-Light", serif;
+            font-weight: 400;
+            margin-bottom: 15px;
+        }
+
+        .sendMail{
+            width: 600px;
+            align-items:center ;
+            justify-content: center;
+            margin-bottom: 50px;
+
+            input{
+                width: 420px;
+                height: 50px;
+                padding: 20px;
+                border: 1px solid rgb(200, 200, 200);
+                position: relative;
+                font-weight: 400;
+                outline: none;
+                font-size: 18px;
+                color: rgb(200, 200, 200);
+            }
+
+            input::placeholder{
+                color: rgb(200, 200, 200);
+            }
+
+            .arrow{
+                position: relative;
+                right: 50px;
+                cursor: pointer;
+            }
+
+
+        }
+
+        .tc{
+            display: flex;
+            width: 450px;
+            margin-bottom: 50px;
+
+            input{
+                margin-right: 20px;
+                height: 50px;
+                width: 50px;
+            }
+
+            p{
+                font-size: 14px;
+                font-weight: 400;
+                color: rgb(179, 178, 178);
+                line-height: 2.0;
+            }
+        }
+    }
+}
